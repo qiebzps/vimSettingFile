@@ -141,3 +141,9 @@ set nu
 
 " 映射
 inoremap jj <esc>
+
+" Tab宽度
+set tabstop=4
+" 统一缩进为4
+set softtabstop=4
+set shiftwidth=4
