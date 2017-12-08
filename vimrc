@@ -18,6 +18,7 @@ set softtabstop=4	" 统一缩进为4
 set shiftwidth=4
 set expandtab		" 使用空格代替制表符
 set smarttab        " 在行和段开始处使用制表符
+set foldmethod=indent   " 按缩进折叠
 set history=1000    " 历史记录数
 set hlsearch        " 搜索逐字符高亮
 set incsearch
