@@ -14,9 +14,9 @@ set nu				" 设置行号
 set autoindent		" 自动缩进
 set cindent
 set tabstop=4		" Tab宽度
-set softtabstop=4	" 统一缩进为4
-set shiftwidth=4
-set expandtab		" 使用空格代替制表符
+set softtabstop=4	" 统一缩进为4           ""
+set shiftwidth=4                              "使<和>命令正常工作
+set expandtab		" 使用空格代替制表符    ""
 set smarttab        " 在行和段开始处使用制表符
 "set foldmethod=indent   " 按缩进折叠
 set foldmethod=manual   "手工定义折叠
