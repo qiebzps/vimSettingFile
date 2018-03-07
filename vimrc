@@ -1,7 +1,7 @@
 "语法高亮"
 syntax on			" 当前配置缺省时则用vim的缺省值覆盖
-set cul				" 高亮光标所在行
-set cuc				" ............列
+"set cul				" 高亮光标所在行
+"set cuc				" ............列
 set scrolloff=5		" 光标移动到buffer的顶部和底部保持3行距离
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}   "状态行显示的内容  
 set laststatus=2	" 显示状态行
