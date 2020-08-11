@@ -61,3 +61,7 @@ endfunc
 set autowrite       " 自动保存 
 set nobackup        " 禁止生成临时文件
 set noswapfile
+" 解决中文显示乱码问题
+set termencoding=utf-8
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb1830
